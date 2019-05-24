@@ -29,7 +29,7 @@ SUBDIRS = \
 	pg_verify_checksums \
 	pg_waldump \
 	pgbench \
-	psql \
+	zql \
 	scripts
 
 ifeq ($(PORTNAME), win32)

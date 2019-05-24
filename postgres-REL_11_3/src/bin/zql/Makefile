@@ -12,7 +12,7 @@
 PGFILEDESC = "psql - the PostgreSQL interactive terminal"
 PGAPPICON=win32
 
-subdir = src/bin/psql
+subdir = src/bin/zql
 top_builddir = ../../..
 include $(top_builddir)/src/Makefile.global
 
