@@ -23,7 +23,7 @@
 #include <signal.h>
 
 #include "access/xlog_internal.h"
-#include "postmaster/startup.h"
+#include "zqlmaster/startup.h"
 #include "replication/walreceiver.h"
 #include "storage/pmsignal.h"
 #include "storage/shmem.h"

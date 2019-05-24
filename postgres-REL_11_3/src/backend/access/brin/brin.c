@@ -26,7 +26,7 @@
 #include "catalog/pg_am.h"
 #include "miscadmin.h"
 #include "pgstat.h"
-#include "postmaster/autovacuum.h"
+#include "zqlmaster/autovacuum.h"
 #include "storage/bufmgr.h"
 #include "storage/freespace.h"
 #include "utils/builtins.h"

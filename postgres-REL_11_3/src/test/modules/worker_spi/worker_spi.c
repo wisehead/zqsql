@@ -24,7 +24,7 @@
 
 /* These are always necessary for a bgworker */
 #include "miscadmin.h"
-#include "postmaster/bgworker.h"
+#include "zqlmaster/bgworker.h"
 #include "storage/ipc.h"
 #include "storage/latch.h"
 #include "storage/lwlock.h"

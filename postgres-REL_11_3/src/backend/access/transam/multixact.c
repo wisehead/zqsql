@@ -82,7 +82,7 @@
 #include "lib/ilist.h"
 #include "miscadmin.h"
 #include "pg_trace.h"
-#include "postmaster/autovacuum.h"
+#include "zqlmaster/autovacuum.h"
 #include "storage/lmgr.h"
 #include "storage/pmsignal.h"
 #include "storage/proc.h"

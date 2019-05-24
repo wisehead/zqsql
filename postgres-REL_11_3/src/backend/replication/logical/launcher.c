@@ -31,9 +31,9 @@
 
 #include "libpq/pqsignal.h"
 
-#include "postmaster/bgworker.h"
-#include "postmaster/fork_process.h"
-#include "postmaster/postmaster.h"
+#include "zqlmaster/bgworker.h"
+#include "zqlmaster/fork_process.h"
+#include "zqlmaster/postmaster.h"
 
 #include "replication/logicallauncher.h"
 #include "replication/logicalworker.h"

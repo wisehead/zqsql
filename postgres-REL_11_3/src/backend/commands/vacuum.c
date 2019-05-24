@@ -39,7 +39,7 @@
 #include "miscadmin.h"
 #include "nodes/makefuncs.h"
 #include "pgstat.h"
-#include "postmaster/autovacuum.h"
+#include "zqlmaster/autovacuum.h"
 #include "storage/bufmgr.h"
 #include "storage/lmgr.h"
 #include "storage/proc.h"

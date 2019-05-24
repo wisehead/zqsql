@@ -79,7 +79,7 @@
 #include "miscadmin.h"
 #include "pgstat.h"
 #include "pg_trace.h"
-#include "postmaster/postmaster.h"
+#include "zqlmaster/postmaster.h"
 #include "replication/slot.h"
 #include "storage/ipc.h"
 #include "storage/predicate.h"

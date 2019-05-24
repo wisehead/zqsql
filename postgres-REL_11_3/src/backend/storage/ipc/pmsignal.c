@@ -18,7 +18,7 @@
 #include <unistd.h>
 
 #include "miscadmin.h"
-#include "postmaster/postmaster.h"
+#include "zqlmaster/postmaster.h"
 #include "replication/walsender.h"
 #include "storage/pmsignal.h"
 #include "storage/shmem.h"

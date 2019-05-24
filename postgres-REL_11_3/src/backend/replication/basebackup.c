@@ -27,7 +27,7 @@
 #include "pgtar.h"
 #include "pgstat.h"
 #include "port.h"
-#include "postmaster/syslogger.h"
+#include "zqlmaster/syslogger.h"
 #include "replication/basebackup.h"
 #include "replication/walsender.h"
 #include "replication/walsender_private.h"

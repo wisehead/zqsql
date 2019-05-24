@@ -30,7 +30,7 @@
 #include "access/xlog.h"
 #include "pgstat.h"
 #include "portability/instr_time.h"
-#include "postmaster/bgwriter.h"
+#include "zqlmaster/bgwriter.h"
 #include "storage/fd.h"
 #include "storage/bufmgr.h"
 #include "storage/relfilenode.h"

@@ -25,7 +25,7 @@
 
 #include "miscadmin.h"
 #ifdef PROFILE_PID_DIR
-#include "postmaster/autovacuum.h"
+#include "zqlmaster/autovacuum.h"
 #endif
 #include "storage/dsm.h"
 #include "storage/ipc.h"

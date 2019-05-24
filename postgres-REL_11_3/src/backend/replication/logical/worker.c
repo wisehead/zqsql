@@ -52,9 +52,9 @@
 
 #include "parser/parse_relation.h"
 
-#include "postmaster/bgworker.h"
-#include "postmaster/postmaster.h"
-#include "postmaster/walwriter.h"
+#include "zqlmaster/bgworker.h"
+#include "zqlmaster/postmaster.h"
+#include "zqlmaster/walwriter.h"
 
 #include "replication/decode.h"
 #include "replication/logical.h"

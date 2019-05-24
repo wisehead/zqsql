@@ -16,7 +16,7 @@
 
 #include "access/xlogdefs.h"
 #include "lib/ilist.h"
-#include "postmaster/bgworker.h"
+#include "zqlmaster/bgworker.h"
 #include "storage/shm_mq.h"
 #include "storage/shm_toc.h"
 

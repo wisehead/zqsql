@@ -28,7 +28,7 @@
 #include "utils/memutils.h"
 #include "utils/rel.h"
 #include "utils/acl.h"
-#include "postmaster/autovacuum.h"
+#include "zqlmaster/autovacuum.h"
 #include "storage/indexfsm.h"
 #include "storage/lmgr.h"
 #include "storage/predicate.h"

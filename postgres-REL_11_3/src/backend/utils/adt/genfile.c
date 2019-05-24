@@ -27,7 +27,7 @@
 #include "funcapi.h"
 #include "mb/pg_wchar.h"
 #include "miscadmin.h"
-#include "postmaster/syslogger.h"
+#include "zqlmaster/syslogger.h"
 #include "storage/fd.h"
 #include "utils/builtins.h"
 #include "utils/memutils.h"

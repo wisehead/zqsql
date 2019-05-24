@@ -28,7 +28,7 @@
 #include "funcapi.h"
 #include "miscadmin.h"
 #include "libpq/pqformat.h"
-#include "postmaster/postmaster.h"
+#include "zqlmaster/postmaster.h"
 #include "storage/lwlock.h"
 #include "utils/builtins.h"
 #include "utils/memutils.h"

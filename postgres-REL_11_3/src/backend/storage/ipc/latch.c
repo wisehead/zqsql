@@ -47,7 +47,7 @@
 #include "pgstat.h"
 #include "port/atomics.h"
 #include "portability/instr_time.h"
-#include "postmaster/postmaster.h"
+#include "zqlmaster/postmaster.h"
 #include "storage/latch.h"
 #include "storage/pmsignal.h"
 #include "storage/shmem.h"

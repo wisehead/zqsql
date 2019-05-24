@@ -70,7 +70,7 @@
 #include "commands/tablespace.h"
 #include "common/file_perm.h"
 #include "miscadmin.h"
-#include "postmaster/bgwriter.h"
+#include "zqlmaster/bgwriter.h"
 #include "storage/fd.h"
 #include "storage/lmgr.h"
 #include "storage/standby.h"

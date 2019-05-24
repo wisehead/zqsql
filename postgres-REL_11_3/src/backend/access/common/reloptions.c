@@ -29,7 +29,7 @@
 #include "commands/tablespace.h"
 #include "commands/view.h"
 #include "nodes/makefuncs.h"
-#include "postmaster/postmaster.h"
+#include "zqlmaster/postmaster.h"
 #include "utils/array.h"
 #include "utils/attoptcache.h"
 #include "utils/builtins.h"

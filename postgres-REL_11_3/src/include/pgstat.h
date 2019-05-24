@@ -16,7 +16,7 @@
 #include "libpq/pqcomm.h"
 #include "port/atomics.h"
 #include "portability/instr_time.h"
-#include "postmaster/pgarch.h"
+#include "zqlmaster/pgarch.h"
 #include "storage/proc.h"
 #include "utils/hsearch.h"
 #include "utils/relcache.h"

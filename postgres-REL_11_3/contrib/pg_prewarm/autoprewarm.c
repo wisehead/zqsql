@@ -34,7 +34,7 @@
 #include "catalog/pg_type.h"
 #include "miscadmin.h"
 #include "pgstat.h"
-#include "postmaster/bgworker.h"
+#include "zqlmaster/bgworker.h"
 #include "storage/buf_internals.h"
 #include "storage/dsm.h"
 #include "storage/ipc.h"

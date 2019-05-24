@@ -10,7 +10,7 @@
  *	  src/backend/postmaster/fork_process.c
  */
 #include "zql.h"
-#include "postmaster/fork_process.h"
+#include "zqlmaster/fork_process.h"
 
 #include <fcntl.h>
 #include <time.h>

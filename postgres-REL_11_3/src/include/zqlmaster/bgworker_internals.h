@@ -14,7 +14,7 @@
 
 #include "datatype/timestamp.h"
 #include "lib/ilist.h"
-#include "postmaster/bgworker.h"
+#include "zqlmaster/bgworker.h"
 
 /* GUC options */
 

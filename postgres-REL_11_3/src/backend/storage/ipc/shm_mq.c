@@ -20,7 +20,7 @@
 
 #include "miscadmin.h"
 #include "pgstat.h"
-#include "postmaster/bgworker.h"
+#include "zqlmaster/bgworker.h"
 #include "storage/procsignal.h"
 #include "storage/shm_mq.h"
 #include "storage/spin.h"

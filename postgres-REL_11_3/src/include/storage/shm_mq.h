@@ -13,7 +13,7 @@
 #ifndef SHM_MQ_H
 #define SHM_MQ_H
 
-#include "postmaster/bgworker.h"
+#include "zqlmaster/bgworker.h"
 #include "storage/dsm.h"
 #include "storage/proc.h"
 

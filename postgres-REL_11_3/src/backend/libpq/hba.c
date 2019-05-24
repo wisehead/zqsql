@@ -33,7 +33,7 @@
 #include "libpq/ifaddr.h"
 #include "libpq/libpq.h"
 #include "miscadmin.h"
-#include "postmaster/postmaster.h"
+#include "zqlmaster/postmaster.h"
 #include "regex/regex.h"
 #include "replication/walsender.h"
 #include "storage/fd.h"

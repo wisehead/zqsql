@@ -17,7 +17,7 @@
 
 #include "miscadmin.h"
 #include "pgstat.h"
-#include "postmaster/bgworker.h"
+#include "zqlmaster/bgworker.h"
 #include "storage/procsignal.h"
 #include "storage/shm_toc.h"
 #include "utils/memutils.h"

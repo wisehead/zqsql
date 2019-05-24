@@ -22,7 +22,7 @@
 #include "access/xlog.h"
 #include "access/xlog_internal.h"
 #include "miscadmin.h"
-#include "postmaster/startup.h"
+#include "zqlmaster/startup.h"
 #include "replication/walsender.h"
 #include "storage/fd.h"
 #include "storage/ipc.h"

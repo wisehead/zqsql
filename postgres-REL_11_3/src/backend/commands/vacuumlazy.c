@@ -51,7 +51,7 @@
 #include "miscadmin.h"
 #include "pgstat.h"
 #include "portability/instr_time.h"
-#include "postmaster/autovacuum.h"
+#include "zqlmaster/autovacuum.h"
 #include "storage/bufmgr.h"
 #include "storage/freespace.h"
 #include "storage/lmgr.h"
