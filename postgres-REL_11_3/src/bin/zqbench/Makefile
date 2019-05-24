@@ -3,7 +3,7 @@
 PGFILEDESC = "pgbench - a simple program for running benchmark tests"
 PGAPPICON = win32
 
-subdir = src/bin/pgbench
+subdir = src/bin/zqbench
 top_builddir = ../../..
 include $(top_builddir)/src/Makefile.global
 

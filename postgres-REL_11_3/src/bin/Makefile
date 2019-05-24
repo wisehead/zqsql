@@ -15,27 +15,27 @@ include $(top_builddir)/src/Makefile.global
 
 SUBDIRS = \
 	initdb \
-	pg_archivecleanup \
-	pg_basebackup \
-	pg_config \
-	pg_controldata \
-	pg_ctl \
-	pg_dump \
-	pg_resetwal \
-	pg_rewind \
-	pg_test_fsync \
-	pg_test_timing \
-	pg_upgrade \
-	pg_verify_checksums \
-	pg_waldump \
-	pgbench \
+	zq_archivecleanup \
+	zq_basebackup \
+	zq_config \
+	zq_controldata \
+	zq_ctl \
+	zq_dump \
+	zq_resetwal \
+	zq_rewind \
+	zq_test_fsync \
+	zq_test_timing \
+	zq_upgrade \
+	zq_verify_checksums \
+	zq_waldump \
+	zqbench \
 	zql \
 	scripts
 
 ifeq ($(PORTNAME), win32)
-SUBDIRS += pgevent
+SUBDIRS += zqevent
 else
-ALWAYS_SUBDIRS += pgevent
+ALWAYS_SUBDIRS += zqevent
 endif
 
 $(recurse)

@@ -10,7 +10,7 @@ PGFILEDESC = "Eventlog message formatter"
 PGAPPICON=win32
 
 PGFILESHLIB = 1
-subdir = src/bin/pgevent
+subdir = src/bin/zqevent
 top_builddir = ../../..
 include $(top_builddir)/src/Makefile.global
 

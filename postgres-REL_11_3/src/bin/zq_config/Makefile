@@ -1,38 +1,38 @@
 #-------------------------------------------------------------------------
 #
-# Makefile for src/bin/pg_controldata
+# Makefile for src/bin/pg_config
 #
 # Copyright (c) 1998-2018, PostgreSQL Global Development Group
 #
-# src/bin/pg_controldata/Makefile
+# src/bin/pg_config/Makefile
 #
 #-------------------------------------------------------------------------
 
-PGFILEDESC = "pg_controldata - reads the data from pg_control"
+PGFILEDESC = "pg_config - report configuration information"
 PGAPPICON=win32
 
-subdir = src/bin/pg_controldata
+subdir = src/bin/zq_config
 top_builddir = ../../..
 include $(top_builddir)/src/Makefile.global
 
-OBJS= pg_controldata.o $(WIN32RES)
+OBJS=   pg_config.o $(WIN32RES)
 
-all: pg_controldata
+all: pg_config
 
-pg_controldata: $(OBJS) | submake-libpgport
-	$(CC) $(CFLAGS) $^ $(LDFLAGS) $(LDFLAGS_EX) $(LIBS) -o $@$(X)
+pg_config: $(OBJS) | submake-libpgport
+	$(CC) $(CFLAGS) $(OBJS) $(LDFLAGS) $(LDFLAGS_EX) $(LIBS) -o $@$(X)
 
 install: all installdirs
-	$(INSTALL_PROGRAM) pg_controldata$(X) '$(DESTDIR)$(bindir)/pg_controldata$(X)'
+	$(INSTALL_SCRIPT) pg_config$(X) '$(DESTDIR)$(bindir)/pg_config$(X)'
 
 installdirs:
 	$(MKDIR_P) '$(DESTDIR)$(bindir)'
 
 uninstall:
-	rm -f '$(DESTDIR)$(bindir)/pg_controldata$(X)'
+	rm -f '$(DESTDIR)$(bindir)/pg_config$(X)'
 
 clean distclean maintainer-clean:
-	rm -f pg_controldata$(X) $(OBJS)
+	rm -f pg_config$(X) $(OBJS)
 	rm -rf tmp_check
 
 check:

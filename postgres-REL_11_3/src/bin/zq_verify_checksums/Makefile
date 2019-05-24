@@ -11,7 +11,7 @@
 PGFILEDESC = "pg_verify_checksums - verify data checksums in an offline cluster"
 PGAPPICON=win32
 
-subdir = src/bin/pg_verify_checksums
+subdir = src/bin/zq_verify_checksums
 top_builddir = ../../..
 include $(top_builddir)/src/Makefile.global
 

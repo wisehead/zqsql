@@ -12,7 +12,7 @@
 PGFILEDESC = "pg_dump/pg_restore/pg_dumpall - backup and restore PostgreSQL databases"
 PGAPPICON=win32
 
-subdir = src/bin/pg_dump
+subdir = src/bin/zq_dump
 top_builddir = ../../..
 include $(top_builddir)/src/Makefile.global
 

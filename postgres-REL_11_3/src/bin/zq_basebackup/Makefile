@@ -14,7 +14,7 @@ PGAPPICON=win32
 
 EXTRA_INSTALL=contrib/test_decoding
 
-subdir = src/bin/pg_basebackup
+subdir = src/bin/zq_basebackup
 top_builddir = ../../..
 include $(top_builddir)/src/Makefile.global
 

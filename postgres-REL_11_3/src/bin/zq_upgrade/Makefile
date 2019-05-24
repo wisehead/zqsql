@@ -3,7 +3,7 @@
 PGFILEDESC = "pg_upgrade - an in-place binary upgrade utility"
 PGAPPICON = win32
 
-subdir = src/bin/pg_upgrade
+subdir = src/bin/zq_upgrade
 top_builddir = ../../..
 include $(top_builddir)/src/Makefile.global
 

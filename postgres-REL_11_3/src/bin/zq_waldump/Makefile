@@ -3,7 +3,7 @@
 PGFILEDESC = "pg_waldump - decode and display WAL"
 PGAPPICON=win32
 
-subdir = src/bin/pg_waldump
+subdir = src/bin/zq_waldump
 top_builddir = ../../..
 include $(top_builddir)/src/Makefile.global
 

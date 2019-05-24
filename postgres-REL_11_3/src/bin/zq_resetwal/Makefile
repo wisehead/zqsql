@@ -11,7 +11,7 @@
 PGFILEDESC = "pg_resetwal - reset PostgreSQL WAL log"
 PGAPPICON=win32
 
-subdir = src/bin/pg_resetwal
+subdir = src/bin/zq_resetwal
 top_builddir = ../../..
 include $(top_builddir)/src/Makefile.global
 
