@@ -8,7 +8,7 @@
 #
 #-------------------------------------------------------------------------
 
-subdir = src/backend/postmaster
+subdir = src/backend/zqlmaster
 top_builddir = ../../..
 include $(top_builddir)/src/Makefile.global
 
